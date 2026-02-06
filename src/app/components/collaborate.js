@@ -8,8 +8,8 @@ const collaborate = () => {
   const textReveal = useReveal()
 
   return (
-    <div className='bg-[var(--color-bg)] flex flex-col md:flex-row w-full text-[var(--color-text)]'>
-         <div ref={imageReveal.ref} className={`order-first w-full md:w-1/2 relative h-65 md:h-162.5 lg:h-215 md:mb-0 reveal reveal--left ${imageReveal.isVisible ? "is-visible" : ""}`}>
+    <div className='bg-[var(--color-bg)] flex flex-col md:flex-row md:items-stretch w-full text-[var(--color-text)]'>
+         <div ref={imageReveal.ref} className={`order-first w-full md:w-1/2 relative aspect-[4/3] md:aspect-auto md:h-auto self-stretch overflow-hidden reveal reveal--left ${imageReveal.isVisible ? "is-visible" : ""}`}>
             <Image src="/collaborate.jpg" alt="Collaborate Image" fill className='object-cover' />
         </div>
         <div ref={textReveal.ref} className={`order-last md:order-first w-full md:w-1/2  pt-12 min-h-[260px] grid grid-rows-[1fr_auto] reveal reveal--right ${textReveal.isVisible ? "is-visible" : ""}`}>

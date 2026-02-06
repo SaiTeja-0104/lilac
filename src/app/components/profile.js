@@ -43,7 +43,7 @@ const profile = () => {
             className='object-cover rounded-t-full w-full h-auto'
           />
 
-          <div className='absolute md:-bottom-20 md:-right-20 -bottom-3 -right-3 translate-x-3 translate-y-3 w-32 h-32 md:w-62.5 md:h-62.5 z-10'>
+          <div className='absolute -bottom-3 -right-3 md:-bottom-16 md:-right-16 translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4 w-20 h-20 sm:w-24 sm:h-24 md:w-36 md:h-36 lg:w-40 lg:h-40 z-10'>
             <Image
               src="/office1.jpeg"
               alt="Santa Monica therapy office detail"

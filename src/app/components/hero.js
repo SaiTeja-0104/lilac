@@ -10,7 +10,7 @@ const hero = () => {
   return (
     <div className=" pt-6 pb-15 md:py-12 lg:pt-16 lg:pb-0 px-4 md:px-6 lg:px-10 md:max-w-[95%] lg:max-w-[90%] md:mx-auto flex flex-col items-center md:flex-row md:justify-start gap-6 md:gap-18 lg:gap-28">
       <div ref={imageReveal.ref} className={`reveal reveal--left ${imageReveal.isVisible ? "is-visible" : ""}`}>
-        <Image src="/dr_maya_reynolds.png" alt="Hero Image" width={580} height={330} sizes="(max-width: 640px) 260px, (max-width: 1024px) 380px, 580px" className='rounded-t-full w-[260px] sm:w-[300px] md:w-[380px] lg:w-[580px] h-auto flex-shrink-0' />
+        <Image src="/Dr_Maya_Reynolds.png" alt="Hero Image" width={580} height={330} sizes="(max-width: 640px) 260px, (max-width: 1024px) 380px, 580px" className='rounded-t-full w-[260px] sm:w-[300px] md:w-[380px] lg:w-[580px] h-auto flex-shrink-0' />
       </div>
       <div ref={textReveal.ref} className={`text-center flex flex-col items-center gap-4 reveal reveal--right ${textReveal.isVisible ? "is-visible" : ""}`}>
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight text-[var(--color-accent)]">Anxiety & Trauma Therapy</h1>
