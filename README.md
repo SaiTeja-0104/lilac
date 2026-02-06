@@ -10,7 +10,7 @@ The work is completed in **three phases**:
 ---
 
 ## 🌐 Live Demo
-👉 https://lilac-opal-five.vercel.app/
+👉 https://lilacdr.vercel.app/
 
 ---
 
